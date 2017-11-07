@@ -1,0 +1,61 @@
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+.jumbotron {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    /*
+    background: url(./../images/background.jpg) no-repeat right top fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;
+    */
+}
+
+.jumbotron-heading {
+    font-weight: 300;
+}
+
+.card {
+    float: left;
+    padding: .75rem;
+    margin-bottom: 2rem;
+    border: 0;
+    width: 20rem;
+}
+
+.card-text {
+    font-size: 85%;
+}
+
+footer p {
+    text-align: center;
+}
+
+img {
+    margin-bottom: 10px;
+    height: 88px;
+}
+
+.col-6,
+.col-lg-4 {
+    padding-left: 0px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-body a {
+    text-decoration: none;
+    color: #000;
+    opacity: 0.6;
+}
+
+.card-body a:hover {
+    color: #000;
+    opacity: 1;
+}
